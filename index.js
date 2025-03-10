@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-const port = 8080;
+const port = 3000;
 import sql from "./db.js";
 import client from "./prismaClient.js";
 import media from "./router/mediaRouter.js";
