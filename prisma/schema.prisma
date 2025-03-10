@@ -15,4 +15,5 @@ model qwer_videos {
   tag        String   @db.VarChar(50)
   iconimg    String   @db.VarChar(300)
   uploaddate DateTime @db.Timestamp(6)
+  churl    String   @db.VarChar(100)
 }
